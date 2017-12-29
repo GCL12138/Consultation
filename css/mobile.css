@@ -1,0 +1,184 @@
+/* 首页 */
+@media(max-width:768px){
+
+    .flicker-example{
+        height: 400px;
+    }
+    .fenxi{
+        width: 100%;  
+        height: 450px;
+    }
+    .fenxi .tupian{
+        width: 100%;
+        height: 150px;
+    }
+    .yundong{
+        height: 500px;
+    }
+    .yundong .timu{
+    	background-color: seagreen;
+    }
+    .yundong .timu h1{
+        margin-top:50%;
+        float: right;
+        width: 100%;
+    }
+    .yundong .timu a{
+        float: right;
+    }
+    .yundong .timu span{
+    	float: right;
+    }
+    .yundong .neirong{
+        height: 100px;
+       	
+        
+    }
+    .fangan{
+    	padding: 0;
+
+    }
+    .xiao{
+        width: 100%;
+        height: 150px;
+        margin: 0;
+        padding: 0;
+        float: left;
+        
+    }
+    .xiao ul li:nth-child(1){ 
+        width: 50%;
+        float: left;
+        border-radius: 0;
+        
+    }
+    .xiao ul li:nth-child(2){
+        width: 50%;
+        float: left;
+    }
+    .xiao ul li:nth-child(3){
+        width: 33.3%;
+        float: left;
+    }
+    .xiao ul li:nth-child(4){
+    	width: 33.3%;
+    	float: left;
+    }
+    .xiao ul li:nth-child(5){
+    	width: 33.3%;
+    	float: left;
+    	border-radius: 0;
+    }
+    
+	.fangan .beijing{
+		display: none;
+	}
+	.fangan .left h1{
+    	clear:both;
+    	margin-top: 50%;
+    	float: left;
+		
+	}
+	.about{
+		height: 800px;
+	}
+	.about .about-left{
+		width: 100%;
+		float: left;
+		height: 400px;
+	}
+	.about .about-right{
+		width: 100%;
+		float: left;
+		height: 400px;	
+	}
+	.journalism{
+		width: 100%;
+	}
+	.journalism-left{
+		width: 100%;
+		height: 50%;
+		float: left;
+	}
+	.journalism-right{
+		width: 100%;
+		height: 50%;
+		float: left;
+	}
+	.cooperation{
+		height: 300px;
+	}
+	.cooperation ul li{
+		width: 30%;
+		margin-left:10%;	
+		margin-bottom:10% ;
+	}
+}
+/* 二级页 */
+@media(max-width:768px){
+    .Exhibition-Partone{
+        height: 1700px;
+    }
+    .click{
+        margin-top: 100px;
+    }
+    .click-p{
+        height: 130px;
+        font-size: 10px;
+    }
+    .picture{
+        height: 100px;
+    }
+    .one-left{
+        width: 100%;
+        margin: 0;
+    }
+    .one-right{
+        display: none;
+    }
+    .two-left{
+        width: 100%;
+        margin: 0;
+    }
+    .two-right{
+        width: 100%;
+        margin: 0;
+    }
+    .three-right{
+        display: none;
+    }
+    .three-left{
+        width: 100%;
+        margin: 0;
+    }
+    .Exhibition{
+        height: 2170px;
+    }
+    .Exhibition-TheSecondPart h3{
+        margin-top: 10px;
+    }
+    .TheSecondPart-one{
+        height: 270px;
+    }
+    .TheSecondPart-one h3{
+        margin-top: 50px;;
+    }
+
+}
+/* 内容页 */
+.data-content{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 0;
+    border-radius: 0px;
+}
+.data-lower p{
+    float: left;
+}
+.data-lower.tu{
+    width: 100%;
+    height: 50px;
+    float: left;
+    background-color: #666;
+}
